@@ -1,0 +1,26 @@
+[2023-12-22T03:54:18.713+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: out_first_dag_V3.third_task manual__2023-12-22T03:54:15.670482+00:00 [queued]>
+[2023-12-22T03:54:18.728+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: out_first_dag_V3.third_task manual__2023-12-22T03:54:15.670482+00:00 [queued]>
+[2023-12-22T03:54:18.729+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 1
+[2023-12-22T03:54:18.750+0000] {taskinstance.py:2192} INFO - Executing <Task(BashOperator): third_task> on 2023-12-22 03:54:15.670482+00:00
+[2023-12-22T03:54:18.758+0000] {standard_task_runner.py:60} INFO - Started process 718 to run task
+[2023-12-22T03:54:18.765+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'out_first_dag_V3', 'third_task', 'manual__2023-12-22T03:54:15.670482+00:00', '--job-id', '23', '--raw', '--subdir', 'DAGS_FOLDER/first_dag.py', '--cfg-path', '/tmp/tmpmacai3dt']
+[2023-12-22T03:54:18.767+0000] {standard_task_runner.py:88} INFO - Job 23: Subtask third_task
+[2023-12-22T03:54:18.841+0000] {task_command.py:423} INFO - Running <TaskInstance: out_first_dag_V3.third_task manual__2023-12-22T03:54:15.670482+00:00 [running]> on host c00ebe49daba
+[2023-12-22T03:54:18.954+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='out_first_dag_V3' AIRFLOW_CTX_TASK_ID='third_task' AIRFLOW_CTX_EXECUTION_DATE='2023-12-22T03:54:15.670482+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-22T03:54:15.670482+00:00'
+[2023-12-22T03:54:18.955+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-12-22T03:54:18.956+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo this is the third task, it will be running after task1 & at the same time as task2']
+[2023-12-22T03:54:18.974+0000] {subprocess.py:86} INFO - Output:
+[2023-12-22T03:54:18.978+0000] {subprocess.py:93} INFO - this is the third task, it will be running after task1
+[2023-12-22T03:54:18.988+0000] {subprocess.py:93} INFO - /usr/bin/bash: line 1: at: command not found
+[2023-12-22T03:54:18.990+0000] {subprocess.py:97} INFO - Command exited with return code 127
+[2023-12-22T03:54:19.006+0000] {taskinstance.py:2699} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 127.
+[2023-12-22T03:54:19.012+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=out_first_dag_V3, task_id=third_task, execution_date=20231222T035415, start_date=20231222T035418, end_date=20231222T035419
+[2023-12-22T03:54:19.028+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 23 for task third_task (Bash command failed. The command returned a non-zero exit code 127.; 718)
+[2023-12-22T03:54:19.062+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2023-12-22T03:54:19.090+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check
