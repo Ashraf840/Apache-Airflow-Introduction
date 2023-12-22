@@ -5514,3 +5514,564 @@ File Path                                             PID    Runtime      # DAGs
 /opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.13s           2023-12-22T05:33:54
 /opt/airflow/dags/second_dag_with_python_operator.py                           1           0  0.18s           2023-12-22T05:33:51
 ================================================================================
+[2023-12-22T05:34:34.238+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.23s           2023-12-22T05:34:25
+/opt/airflow/dags/second_dag_with_python_operator.py                           1           0  0.13s           2023-12-22T05:34:22
+================================================================================
+[2023-12-22T05:35:04.664+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.16s           2023-12-22T05:34:55
+/opt/airflow/dags/second_dag_with_python_operator.py                           1           0  0.18s           2023-12-22T05:34:52
+================================================================================
+[2023-12-22T05:35:35.294+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.20s           2023-12-22T05:35:26
+/opt/airflow/dags/second_dag_with_python_operator.py   2227  0.01s             1           0  0.17s           2023-12-22T05:35:34
+================================================================================
+[2023-12-22T05:36:06.055+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.16s           2023-12-22T05:35:57
+/opt/airflow/dags/second_dag_with_python_operator.py                           1           0  0.13s           2023-12-22T05:35:47
+================================================================================
+[2023-12-22T05:36:36.598+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.25s           2023-12-22T05:36:27
+/opt/airflow/dags/second_dag_with_python_operator.py                           1           0  0.19s           2023-12-22T05:36:34
+================================================================================
+[2023-12-22T05:37:06.908+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.15s           2023-12-22T05:36:57
+/opt/airflow/dags/second_dag_with_python_operator.py   2261  0.03s             1           0  0.17s           2023-12-22T05:36:55
+================================================================================
+[2023-12-22T05:37:36.928+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/second_dag_with_python_operator.py                           0           1  0.16s           2023-12-22T05:37:32
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.15s           2023-12-22T05:37:28
+================================================================================
+[2023-12-22T05:38:07.667+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/second_dag_with_python_operator.py   2292  0.02s             0           1  0.07s           2023-12-22T05:38:03
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.25s           2023-12-22T05:37:59
+================================================================================
+[2023-12-22T05:38:38.150+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.21s           2023-12-22T05:38:30
+/opt/airflow/dags/second_dag_with_python_operator.py                           1           0  0.19s           2023-12-22T05:38:37
+================================================================================
+[2023-12-22T05:38:41.167+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2023-12-22T05:38:41.171+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2023-12-22T05:39:08.159+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/second_dag_with_python_operator.py                           0           1  0.11s           2023-12-22T05:39:08
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.18s           2023-12-22T05:39:00
+================================================================================
+[2023-12-22T05:39:38.624+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.16s           2023-12-22T05:39:31
+/opt/airflow/dags/second_dag_with_python_operator.py                           1           0  0.20s           2023-12-22T05:39:21
+================================================================================
+[2023-12-22T05:40:09.263+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.16s           2023-12-22T05:40:02
+/opt/airflow/dags/second_dag_with_python_operator.py                           1           0  0.19s           2023-12-22T05:40:08
+================================================================================
+[2023-12-22T05:40:40.087+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/second_dag_with_python_operator.py   2355  0.01s             0           1  0.09s           2023-12-22T05:40:37
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.16s           2023-12-22T05:40:33
+================================================================================
+[2023-12-22T05:41:10.726+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.15s           2023-12-22T05:41:03
+/opt/airflow/dags/second_dag_with_python_operator.py                           1           0  0.15s           2023-12-22T05:41:04
+================================================================================
+[2023-12-22T05:41:41.165+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.14s           2023-12-22T05:41:34
+/opt/airflow/dags/second_dag_with_python_operator.py                           1           0  0.12s           2023-12-22T05:41:26
+================================================================================
+[2023-12-22T05:42:12.086+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.23s           2023-12-22T05:42:05
+/opt/airflow/dags/second_dag_with_python_operator.py   2394  0.00s             1           0  0.16s           2023-12-22T05:41:58
+================================================================================
+[2023-12-22T05:42:42.798+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/second_dag_with_python_operator.py   2407  0.02s             0           1  0.19s           2023-12-22T05:42:39
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.13s           2023-12-22T05:42:35
+================================================================================
+[2023-12-22T05:43:12.818+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.15s           2023-12-22T05:43:06
+/opt/airflow/dags/second_dag_with_python_operator.py                           1           0  0.22s           2023-12-22T05:43:10
+================================================================================
+[2023-12-22T05:43:41.264+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2023-12-22T05:43:41.270+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2023-12-22T05:43:43.373+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.16s           2023-12-22T05:43:37
+/opt/airflow/dags/second_dag_with_python_operator.py                           1           0  0.17s           2023-12-22T05:43:42
+================================================================================
+[2023-12-22T05:44:14.189+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.28s           2023-12-22T05:44:08
+/opt/airflow/dags/second_dag_with_python_operator.py                           1           0  0.19s           2023-12-22T05:44:00
+================================================================================
+[2023-12-22T05:44:44.665+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.24s           2023-12-22T05:44:38
+/opt/airflow/dags/second_dag_with_python_operator.py                           1           0  0.23s           2023-12-22T05:44:30
+================================================================================
+[2023-12-22T05:45:15.150+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.16s           2023-12-22T05:45:09
+/opt/airflow/dags/second_dag_with_python_operator.py   2467  0.02s             1           0  0.16s           2023-12-22T05:45:01
+================================================================================
+[2023-12-22T05:45:45.522+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.14s           2023-12-22T05:45:39
+/opt/airflow/dags/second_dag_with_python_operator.py   2475  0.01s             1           0  0.19s           2023-12-22T05:45:15
+================================================================================
+[2023-12-22T05:46:15.926+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.12s           2023-12-22T05:46:09
+/opt/airflow/dags/second_dag_with_python_operator.py   2483  0.02s             1           0  0.16s           2023-12-22T05:45:45
+================================================================================
+[2023-12-22T05:46:46.272+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.14s           2023-12-22T05:46:40
+/opt/airflow/dags/second_dag_with_python_operator.py   2490  0.02s             1           0  0.16s           2023-12-22T05:46:16
+================================================================================
+[2023-12-22T05:47:16.625+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.14s           2023-12-22T05:47:10
+/opt/airflow/dags/second_dag_with_python_operator.py   2498  0.02s             1           0  0.14s           2023-12-22T05:46:46
+================================================================================
+[2023-12-22T05:47:46.970+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.15s           2023-12-22T05:47:41
+/opt/airflow/dags/second_dag_with_python_operator.py   2505  0.00s             1           0  0.15s           2023-12-22T05:47:16
+================================================================================
+[2023-12-22T05:48:17.367+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.16s           2023-12-22T05:48:11
+/opt/airflow/dags/second_dag_with_python_operator.py   2512  0.01s             1           0  0.16s           2023-12-22T05:47:47
+================================================================================
+[2023-12-22T05:48:41.629+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2023-12-22T05:48:41.637+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2023-12-22T05:48:47.752+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.12s           2023-12-22T05:48:41
+/opt/airflow/dags/second_dag_with_python_operator.py   2520  0.02s             1           0  0.18s           2023-12-22T05:48:17
+================================================================================
+[2023-12-22T05:49:18.073+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.12s           2023-12-22T05:49:12
+/opt/airflow/dags/second_dag_with_python_operator.py   2528  0.02s             1           0  0.13s           2023-12-22T05:48:47
+================================================================================
+[2023-12-22T05:49:48.421+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.14s           2023-12-22T05:49:42
+/opt/airflow/dags/second_dag_with_python_operator.py   2536  0.02s             1           0  0.15s           2023-12-22T05:49:18
+================================================================================
+[2023-12-22T05:50:18.749+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.15s           2023-12-22T05:50:12
+/opt/airflow/dags/second_dag_with_python_operator.py   2544  0.01s             1           0  0.13s           2023-12-22T05:49:48
+================================================================================
+[2023-12-22T05:50:49.098+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.15s           2023-12-22T05:50:43
+/opt/airflow/dags/second_dag_with_python_operator.py   2551  0.02s             1           0  0.14s           2023-12-22T05:50:18
+================================================================================
+[2023-12-22T05:51:19.441+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.15s           2023-12-22T05:51:13
+/opt/airflow/dags/second_dag_with_python_operator.py   2558  0.01s             1           0  0.14s           2023-12-22T05:50:49
+================================================================================
+[2023-12-22T05:51:49.813+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.15s           2023-12-22T05:51:43
+/opt/airflow/dags/second_dag_with_python_operator.py   2566  0.01s             1           0  0.14s           2023-12-22T05:51:19
+================================================================================
+[2023-12-22T05:52:20.171+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.15s           2023-12-22T05:52:14
+/opt/airflow/dags/second_dag_with_python_operator.py   2573  0.01s             1           0  0.15s           2023-12-22T05:51:49
+================================================================================
+[2023-12-22T05:52:50.937+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.15s           2023-12-22T05:52:44
+/opt/airflow/dags/second_dag_with_python_operator.py   2580  0.01s             1           0  0.14s           2023-12-22T05:52:20
+================================================================================
+[2023-12-22T05:53:21.283+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.15s           2023-12-22T05:53:15
+/opt/airflow/dags/second_dag_with_python_operator.py   2588  0.01s             1           0  0.13s           2023-12-22T05:52:51
+================================================================================
+[2023-12-22T05:53:42.523+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2023-12-22T05:53:42.530+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2023-12-22T05:53:51.664+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.16s           2023-12-22T05:53:45
+/opt/airflow/dags/second_dag_with_python_operator.py   2602  0.01s             1           0  0.17s           2023-12-22T05:53:21
+================================================================================
+[2023-12-22T05:54:22.091+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.19s           2023-12-22T05:54:16
+/opt/airflow/dags/second_dag_with_python_operator.py   2609  0.01s             1           0  0.17s           2023-12-22T05:53:51
+================================================================================
+[2023-12-22T05:54:52.786+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.15s           2023-12-22T05:54:46
+/opt/airflow/dags/second_dag_with_python_operator.py   2619  0.01s             1           0  0.18s           2023-12-22T05:54:38
+================================================================================
+[2023-12-22T05:55:22.909+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.18s           2023-12-22T05:55:17
+/opt/airflow/dags/second_dag_with_python_operator.py   2637  0.03s             1           0  0.17s           2023-12-22T05:55:20
+================================================================================
+[2023-12-22T05:55:53.738+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.23s           2023-12-22T05:55:48
+/opt/airflow/dags/second_dag_with_python_operator.py                           1           0  0.20s           2023-12-22T05:55:52
+================================================================================
+[2023-12-22T05:56:23.952+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.27s           2023-12-22T05:56:18
+/opt/airflow/dags/second_dag_with_python_operator.py                           1           0  0.13s           2023-12-22T05:56:15
+================================================================================
+[2023-12-22T05:56:54.669+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.29s           2023-12-22T05:56:49
+/opt/airflow/dags/second_dag_with_python_operator.py                           1           0  0.19s           2023-12-22T05:56:53
+================================================================================
+[2023-12-22T05:57:25.364+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/second_dag_with_python_operator.py   2685  0.03s             0           1  0.13s           2023-12-22T05:57:22
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.20s           2023-12-22T05:57:20
+================================================================================
+[2023-12-22T05:57:56.214+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.22s           2023-12-22T05:57:51
+/opt/airflow/dags/second_dag_with_python_operator.py   2701  0.01s             1           0  0.17s           2023-12-22T05:57:55
+================================================================================
+[2023-12-22T05:58:26.484+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.26s           2023-12-22T05:58:21
+/opt/airflow/dags/second_dag_with_python_operator.py                           1           0  0.30s           2023-12-22T05:58:21
+================================================================================
+[2023-12-22T05:58:42.977+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2023-12-22T05:58:42.990+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2023-12-22T05:58:57.292+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/second_dag_with_python_operator.py                           0           1  0.05s           2023-12-22T05:58:55
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.17s           2023-12-22T05:58:52
+================================================================================
+[2023-12-22T05:59:27.323+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.19s           2023-12-22T05:59:23
+/opt/airflow/dags/second_dag_with_python_operator.py                           1           0  0.29s           2023-12-22T05:59:24
+================================================================================
+[2023-12-22T05:59:57.374+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.29s           2023-12-22T05:59:54
+/opt/airflow/dags/second_dag_with_python_operator.py                           1           0  0.14s           2023-12-22T05:59:53
+================================================================================
+[2023-12-22T06:00:27.617+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.37s           2023-12-22T06:00:24
+/opt/airflow/dags/second_dag_with_python_operator.py                           1           0  0.56s           2023-12-22T06:00:23
+================================================================================
+[2023-12-22T06:00:58.217+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.17s           2023-12-22T06:00:55
+/opt/airflow/dags/second_dag_with_python_operator.py                           1           0  0.27s           2023-12-22T06:00:54
+================================================================================
+[2023-12-22T06:01:28.698+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.23s           2023-12-22T06:01:25
+/opt/airflow/dags/second_dag_with_python_operator.py                           1           0  0.16s           2023-12-22T06:01:24
+================================================================================
+[2023-12-22T06:01:59.151+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.12s           2023-12-22T06:01:56
+/opt/airflow/dags/second_dag_with_python_operator.py                           1           0  0.24s           2023-12-22T06:01:55
+================================================================================
+[2023-12-22T06:02:29.995+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.23s           2023-12-22T06:02:16
+/opt/airflow/dags/second_dag_with_python_operator.py                           1           0  0.16s           2023-12-22T06:02:26
+================================================================================
+[2023-12-22T06:03:00.485+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.29s           2023-12-22T06:02:47
+/opt/airflow/dags/second_dag_with_python_operator.py                           1           0  0.18s           2023-12-22T06:02:34
+================================================================================
+[2023-12-22T06:03:30.826+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.17s           2023-12-22T06:03:18
+/opt/airflow/dags/second_dag_with_python_operator.py                           1           0  0.17s           2023-12-22T06:03:22
+================================================================================
+[2023-12-22T06:03:43.198+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2023-12-22T06:03:43.200+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2023-12-22T06:04:01.676+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.18s           2023-12-22T06:03:49
+/opt/airflow/dags/second_dag_with_python_operator.py   2852  0.01s             1           0  0.23s           2023-12-22T06:03:59
+================================================================================
+[2023-12-22T06:04:32.463+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.12s           2023-12-22T06:04:20
+/opt/airflow/dags/second_dag_with_python_operator.py                           1           0  0.14s           2023-12-22T06:04:14
+================================================================================
+[2023-12-22T06:05:03.354+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag_with_bash_operator.py                              1           0  0.24s           2023-12-22T06:04:51
+/opt/airflow/dags/second_dag_with_python_operator.py                           1           0  0.15s           2023-12-22T06:04:49
+================================================================================

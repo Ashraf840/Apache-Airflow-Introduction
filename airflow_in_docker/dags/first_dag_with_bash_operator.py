@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 from airflow.operators.bash import BashOperator
 
 
-# Airflow DAG with PythonOperator
+# Airflow DAG with BashOperator
 
 
 default_args = {
